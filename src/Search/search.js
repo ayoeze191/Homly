@@ -12,13 +12,13 @@ const Search = () => {
             <div className='mb-10'>Search For your prefered choice</div>
             <div className='flex gap-2 items-center'>
             <div className='rounded border outline-0 lg:w-28 py-2'>
-            <input type={'text'} placeholder="Location" className='px-2 outline-0 w-full'/>
+            <input type={'text'} placeholder="Location" className='px-2 outline-0 w-full text-sm md:text-[initial]'/>
             </div>
             <div className='rounded border outline-0 lg:w-28 py-2'>
-            <input type={'text'} placeholder="Home Type" className='px-2 outline-0 w-full' />
+            <input type={'text'} placeholder="Home Type" className='px-2 outline-0 w-full text-sm md:text-[initial]' />
             </div>
             <div className='rounded border outline-0 lg:w-28 py-2'>
-            <input type={'text'} placeholder="Budget" className='px-2 outline-0 w-full'/>
+            <input type={'text'} placeholder="Budget" className='px-2 outline-0 w-full text-sm md:text-[initial]'/>
             </div>
             <button className='bg-black text-white px-3 py-2 rounded-lg hidden md:flex '>Explore Now</button>
             </div>

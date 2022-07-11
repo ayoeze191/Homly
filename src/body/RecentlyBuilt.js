@@ -30,10 +30,10 @@ all available at homly.</p>
 <h1 className='flex text-[#A4A4A4]'><img src={Location} alt=''/>413 Texas,CA 378</h1>
 <h1 className='text-[#2320AF]'>$83,400</h1>
 <div className='rounded-xl grid grid-cols-2 gap-2'>
-    <div className='flex text-xs md:text-sm'><img src={Bathtub} alt =""/>4 Bathroom</div>
-    <div className='flex text-xs md:text-sm'><img src={car} alt=''/>2 Garage</div>
-    <div className='flex text-xs md:text-sm'><img src={OfficeBuildingOutline} alt=''/>4.2 Square Feet</div>
-    <div className='flex text-xs md:text-sm'><img src={BedRoom} alt=''/>4 Bedroom</div>
+    <div className='flex text-xs md:text-sm'><img src={Bathtub} alt ="" className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bathroom</div>
+    <div className='flex text-xs md:text-sm'><img src={car} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>2 Garage</div>
+    <div className='flex text-xs md:text-sm'><img src={OfficeBuildingOutline} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4.2 Square Feet</div>
+    <div className='flex text-xs md:text-sm'><img src={BedRoom} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bedroom</div>
 </div>
 <div className='w-full flex justify-center'>
     <button className='bg-black px-4 py-1 rounded-xl mx-auto text-white'>Buy</button>
@@ -49,10 +49,10 @@ all available at homly.</p>
 <h1 className='flex text-[#A4A4A4]'><img src={Location} alt=''/>413 Texas,CA 378</h1>
 <h1 className='text-[#2320AF]'>$83,400</h1>
 <div className='rounded-xl grid grid-cols-2 gap-2'>
-    <div className='flex text-xs md:text-sm'><img src={Bathtub} alt =""/>4 Bathroom</div>
-    <div className='flex text-xs md:text-sm'><img src={car} alt=''/>2 Garage</div>
-    <div className='flex text-xs md:text-sm'><img src={OfficeBuildingOutline} alt=''/>4.2 Square Feet</div>
-    <div className='flex text-xs md:text-sm'><img src={BedRoom} alt=''/>4 Bedroom</div>
+    <div className='flex text-xs md:text-sm'><img src={Bathtub} alt ="" className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bathroom</div>
+    <div className='flex text-xs md:text-sm'><img src={car} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]' />2 Garage</div>
+    <div className='flex text-xs md:text-sm'><img src={OfficeBuildingOutline} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4.2 Square Feet</div>
+    <div className='flex text-xs md:text-sm'><img src={BedRoom} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bedroom</div>
 </div>
 <div className='w-full flex justify-center'>
     <button className='bg-black px-4 py-1 rounded-xl mx-auto text-white'>Buy</button>
@@ -68,10 +68,10 @@ all available at homly.</p>
 <h1 className='flex text-[#A4A4A4]'><img src={Location} alt=''/>413 Texas,CA 378</h1>
 <h1 className='text-[#2320AF]'>$83,400</h1>
 <div className='rounded-xl grid grid-cols-2 gap-2'>
-    <div className='flex text-xs md:text-sm'><img src={Bathtub} alt =""/>4 Bathroom</div>
-    <div className='flex text-xs md:text-sm'><img src={car} alt=''/>2 Garage</div>
-    <div className='flex text-xs md:text-sm'><img src={OfficeBuildingOutline} alt=''/>4.2 Square Feet</div>
-    <div className='flex text-xs md:text-sm'><img src={BedRoom} alt=''/>4 Bedroom</div>
+    <div className='flex text-xs md:text-sm'><img src={Bathtub} alt ="" className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bathroom</div>
+    <div className='flex text-xs md:text-sm'><img src={car} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>2 Garage</div>
+    <div className='flex text-xs md:text-sm'><img src={OfficeBuildingOutline} alt=''  className='w-3 h-3 md:w-[initial] md:h-[initial]'/>4.2 Square Feet</div>
+    <div className='flex text-xs md:text-sm'><img src={BedRoom} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bedroom</div>
 </div>
 <div className='w-full flex justify-center'>
     <button className='bg-black px-4 py-1 rounded-xl mx-auto text-white'>Buy</button>
@@ -87,10 +87,10 @@ all available at homly.</p>
 <h1 className='flex text-[#A4A4A4]'><img src={Location} alt=''/>413 Texas,CA 378</h1>
 <h1 className='text-[#2320AF]'>$83,400</h1>
 <div className='rounded-xl grid grid-cols-2 gap-2'>
-    <div className='flex text-xs md:text-sm'><img src={Bathtub} alt =""/>4 Bathroom</div>
-    <div className='flex text-xs md:text-sm'><img src={car} alt=''/>2 Garage</div>
-    <div className='flex text-xs md:text-sm'><img src={OfficeBuildingOutline} alt=''/>4.2 Square Feet</div>
-    <div className='flex text-xs md:text-sm'><img src={BedRoom} alt=''/>4 Bedroom</div>
+    <div className='flex text-xs md:text-sm'><img src={Bathtub} alt =""  className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bathroom</div>
+    <div className='flex text-xs md:text-sm'><img src={car} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>2 Garage</div>
+    <div className='flex text-xs md:text-sm'><img src={OfficeBuildingOutline} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4.2 Square Feet</div>
+    <div className='flex text-xs md:text-sm'><img src={BedRoom} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bedroom</div>
 </div>
 <div className='w-full flex justify-center'>
     <button className='bg-black px-4 py-1 rounded-xl mx-auto text-white'>Buy</button>
