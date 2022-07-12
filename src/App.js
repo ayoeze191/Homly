@@ -7,6 +7,7 @@ import Hero from './Hero/Hero';
 import Search from './Search/search';
 import Brand from './body/brand';
 import ForYou from './body/ForYou';
+import About from './body/About';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <HowWeOperate />
       <Brand />
       <ForYou />
+      <About />
     </div>
   );
 }

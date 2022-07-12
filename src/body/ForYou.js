@@ -16,181 +16,163 @@ import foryou9 from "./../assets/ForYou/ForYou9.png"
 
 const ForYou = () => {
   return (
-    <div className='flex flex-col items-center container'>
-        <h1>For You</h1>
-        <p>We offer the best deals in property buying,Homly we secures
+    <div className='flex flex-col items-center container mt-10 mx-auto'>
+        <h1 className='text-2xl md:text-4xl text-center md:text-left w-4/5'>For You</h1>
+        <p className='text-[#A4A4A4] w-4/5 mx-auto flex flex-col md:flex-row gap-4 md:gap-6 text-center mb-4 md:mb-6'>We offer the best deals in property buying,Homly we secures
 your property before and after purchase.</p>
-<div className='grid  grid-cols-1 gap-5 lg:gap-6 md:grid-cols-2 lg:grid-cols-3 text-xs sm:text-sm md:text-base w-5/6'>
-<div className='bg-[#FFFFFF] flex gap-4  mx-auto rounded-lg shadow-lg pt-3 px-3 w-fit box-border'>
-<div>
-    <img src={foryou1} alt = "Bungalow1" className='w-full h-full pb-3'/>
+<div className='grid  grid-cols-1 gap-5 lg:gap-6 md:grid-cols-2 lg:grid-cols-3 text-xs sm:text-sm md:text-base w-4/5 items-center'>
+<div className='bg-white flex p-2 rounded-lg text-sm gap-2'>
+    <div className=''>
+        <img src={foryou1} alt='' className=''/>
+    </div>
+    <div className='flex flex-col items-center'>
+        <h1>Equisite Detached Bungalow</h1>
+        <div className='w-full'>413 Texas,CA 378</div>
+        <h1 className='text-[#2320AF] text-lg w-full '>$32,800</h1>
+        <div className='grid grid-cols-2'>
+            <h1><img src={Bathtub} alt='' /> 4 Bathroom</h1>
+            <h1><img src={car} alt='' />2 Garage</h1>
+            <h1><img src={OfficeBuildingOutline} alt='' />4.2 Square Feet</h1>
+            <h1><img src={BedRoom} alt='' /> 4 Bedroom</h1>
+        </div>
+        <button className='bg-black py-1 px-2 text-white rounded-lg text-xs '>Buy</button>
+    </div>
 </div>
-<div className='flex flex-col md:gap-1'>
-<h1 className='text-black font-'>Equisite Detached Bungalow</h1>
-<h1 className='flex text-[#A4A4A4]'><img src={Location} alt=''/>413 Texas,CA 378</h1>
-<h1 className='text-[#2320AF]'>$83,400</h1>
-<div className='rounded-xl grid grid-cols-2 gap-2'>
-    <div className='flex text-xs md:text-sm'><img src={Bathtub} alt ="" className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bathroom</div>
-    <div className='flex text-xs md:text-sm'><img src={car} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>2 Garage</div>
-    <div className='flex text-xs md:text-sm'><img src={OfficeBuildingOutline} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4.2 Square Feet</div>
-    <div className='flex text-xs md:text-sm'><img src={BedRoom} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bedroom</div>
+<div className='bg-white flex p-2 rounded-lg text-sm gap-2'>
+    <div className=''>
+        <img src={foryou2} alt='' className=''/>
+    </div>
+    <div className='flex flex-col items-center'>
+        <h1>Equisite Detached Bungalow</h1>
+        <div className='w-full'>413 Texas,CA 378</div>
+        <h1 className='text-[#2320AF] text-lg w-full '>$32,800</h1>
+        <div className='grid grid-cols-2'>
+            <h1><img src={Bathtub} alt='' /> 4 Bathroom</h1>
+            <h1><img src={car} alt='' />2 Garage</h1>
+            <h1><img src={OfficeBuildingOutline} alt='' />4.2 Square Feet</h1>
+            <h1><img src={BedRoom} alt='' /> 4 Bedroom</h1>
+        </div>
+        <button className='bg-black py-1 px-2 text-white rounded-lg text-xs '>Buy</button>
+    </div>
 </div>
-<div className='w-full flex justify-center'>
-    <button className='bg-black px-4 py-1 rounded-xl mx-auto text-white'>Buy</button>
+<div className='bg-white flex p-2 rounded-lg text-sm gap-2'>
+    <div className=''>
+        <img src={foryou3} alt='' className=''/>
+    </div>
+    <div className='flex flex-col items-center'>
+        <h1>Equisite Detached Bungalow</h1>
+        <div className='w-full'>413 Texas,CA 378</div>
+        <h1 className='text-[#2320AF] text-lg w-full '>$32,800</h1>
+        <div className='grid grid-cols-2'>
+            <h1><img src={Bathtub} alt='' /> 4 Bathroom</h1>
+            <h1><img src={car} alt='' />2 Garage</h1>
+            <h1><img src={OfficeBuildingOutline} alt='' />4.2 Square Feet</h1>
+            <h1><img src={BedRoom} alt='' /> 4 Bedroom</h1>
+        </div>
+        <button className='bg-black py-1 px-2 text-white rounded-lg text-xs '>Buy</button>
+    </div>
 </div>
+<div className='bg-white flex p-2 rounded-lg text-sm gap-2'>
+    <div className=''>
+        <img src={foryou4} alt='' className=''/>
+    </div>
+    <div className='flex flex-col items-center'>
+        <h1>Equisite Detached Bungalow</h1>
+        <div className='w-full'>413 Texas,CA 378</div>
+        <h1 className='text-[#2320AF] text-lg w-full '>$32,800</h1>
+        <div className='grid grid-cols-2'>
+            <h1><img src={Bathtub} alt='' /> 4 Bathroom</h1>
+            <h1><img src={car} alt='' />2 Garage</h1>
+            <h1><img src={OfficeBuildingOutline} alt='' />4.2 Square Feet</h1>
+            <h1><img src={BedRoom} alt='' /> 4 Bedroom</h1>
+        </div>
+        <button className='bg-black py-1 px-2 text-white rounded-lg text-xs '>Buy</button>
+    </div>
 </div>
+<div className='bg-white lg:flex p-2 rounded-lg text-sm gap-2 hidden'>
+    <div className=''>
+        <img src={foryou5} alt='' className=''/>
+    </div>
+    <div className='flex flex-col items-center'>
+        <h1>Equisite Detached Bungalow</h1>
+        <div className='w-full'>413 Texas,CA 378</div>
+        <h1 className='text-[#2320AF] text-lg w-full '>$32,800</h1>
+        <div className='grid grid-cols-2'>
+            <h1><img src={Bathtub} alt='' /> 4 Bathroom</h1>
+            <h1><img src={car} alt='' />2 Garage</h1>
+            <h1><img src={OfficeBuildingOutline} alt='' />4.2 Square Feet</h1>
+            <h1><img src={BedRoom} alt='' /> 4 Bedroom</h1>
+        </div>
+        <button className='bg-black py-1 px-2 text-white rounded-lg text-xs '>Buy</button>
+    </div>
 </div>
-<div className='bg-[#FFFFFF] flex gap-4  mx-auto rounded-lg shadow-lg pt-3 px-3 w-fit box-border'>
-<div>
-    <img src={foryou2} alt = "Bungalow1" className='w-full h-full pb-3'/>
+<div className='bg-white lg:flex p-2 rounded-lg text-sm gap-2 hidden'>
+    <div className=''>
+        <img src={foryou6} alt='' className=''/>
+    </div>
+    <div className='flex flex-col items-center'>
+        <h1>Equisite Detached Bungalow</h1>
+        <div className='w-full'>413 Texas,CA 378</div>
+        <h1 className='text-[#2320AF] text-lg w-full '>$32,800</h1>
+        <div className='grid grid-cols-2'>
+            <h1><img src={Bathtub} alt='' /> 4 Bathroom</h1>
+            <h1><img src={car} alt='' />2 Garage</h1>
+            <h1><img src={OfficeBuildingOutline} alt='' />4.2 Square Feet</h1>
+            <h1><img src={BedRoom} alt='' /> 4 Bedroom</h1>
+        </div>
+        <button className='bg-black py-1 px-2 text-white rounded-lg text-xs '>Buy</button>
+    </div>
 </div>
-<div className='flex flex-col md:gap-1'>
-<h1 className='text-black font-'>Equisite Detached Bungalow</h1>
-<h1 className='flex text-[#A4A4A4]'><img src={Location} alt=''/>413 Texas,CA 378</h1>
-<h1 className='text-[#2320AF]'>$83,400</h1>
-<div className='rounded-xl grid grid-cols-2 gap-2'>
-    <div className='flex text-xs md:text-sm'><img src={Bathtub} alt ="" className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bathroom</div>
-    <div className='flex text-xs md:text-sm'><img src={car} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>2 Garage</div>
-    <div className='flex text-xs md:text-sm'><img src={OfficeBuildingOutline} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4.2 Square Feet</div>
-    <div className='flex text-xs md:text-sm'><img src={BedRoom} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bedroom</div>
+<div className='bg-white lg:flex p-2 rounded-lg text-sm gap-2 hidden'>
+    <div className=''>
+        <img src={foryou7} alt='' className=''/>
+    </div>
+    <div className='flex flex-col items-center'>
+        <h1>Equisite Detached Bungalow</h1>
+        <div className='w-full'>413 Texas,CA 378</div>
+        <h1 className='text-[#2320AF] text-lg w-full '>$32,800</h1>
+        <div className='grid grid-cols-2'>
+            <h1><img src={Bathtub} alt='' /> 4 Bathroom</h1>
+            <h1><img src={car} alt='' />2 Garage</h1>
+            <h1><img src={OfficeBuildingOutline} alt='' />4.2 Square Feet</h1>
+            <h1><img src={BedRoom} alt='' /> 4 Bedroom</h1>
+        </div>
+        <button className='bg-black py-1 px-2 text-white rounded-lg text-xs '>Buy</button>
+    </div>
 </div>
-<div className='w-full flex justify-center'>
-    <button className='bg-black px-4 py-1 rounded-xl mx-auto text-white'>Buy</button>
+<div className='bg-white lg:flex p-2 rounded-lg text-sm gap-2 hidden'>
+    <div className=''>
+        <img src={foryou8} alt='' className=''/>
+    </div>
+    <div className='flex flex-col items-center'>
+        <h1>Equisite Detached Bungalow</h1>
+        <div className='w-full'>413 Texas,CA 378</div>
+        <h1 className='text-[#2320AF] text-lg w-full '>$32,800</h1>
+        <div className='grid grid-cols-2'>
+            <h1><img src={Bathtub} alt='' /> 4 Bathroom</h1>
+            <h1><img src={car} alt='' />2 Garage</h1>
+            <h1><img src={OfficeBuildingOutline} alt='' />4.2 Square Feet</h1>
+            <h1><img src={BedRoom} alt='' /> 4 Bedroom</h1>
+        </div>
+        <button className='bg-black py-1 px-2 text-white rounded-lg text-xs '>Buy</button>
+    </div>
 </div>
-</div>
-</div>
-<div className='bg-[#FFFFFF] flex gap-4  mx-auto rounded-lg shadow-lg pt-3 px-3 w-fit box-border'>
-<div>
-    <img src={foryou3} alt = "Bungalow1" className='w-full h-full pb-3'/>
-</div>
-<div className='flex flex-col md:gap-1'>
-<h1 className='text-black font-'>Equisite Detached Bungalow</h1>
-<h1 className='flex text-[#A4A4A4]'><img src={Location} alt=''/>413 Texas,CA 378</h1>
-<h1 className='text-[#2320AF]'>$83,400</h1>
-<div className='rounded-xl grid grid-cols-2 gap-2'>
-    <div className='flex text-xs md:text-sm'><img src={Bathtub} alt ="" className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bathroom</div>
-    <div className='flex text-xs md:text-sm'><img src={car} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>2 Garage</div>
-    <div className='flex text-xs md:text-sm'><img src={OfficeBuildingOutline} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4.2 Square Feet</div>
-    <div className='flex text-xs md:text-sm'><img src={BedRoom} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bedroom</div>
-</div>
-<div className='w-full flex justify-center'>
-    <button className='bg-black px-4 py-1 rounded-xl mx-auto text-white'>Buy</button>
-</div>
-</div>
-</div>
-<div className='bg-[#FFFFFF] flex gap-4  mx-auto rounded-lg shadow-lg pt-3 px-3 w-fit box-border'>
-<div>
-    <img src={foryou4} alt = "Bungalow1" className='w-full h-full pb-3'/>
-</div>
-<div className='flex flex-col md:gap-1'>
-<h1 className='text-black font-'>Equisite Detached Bungalow</h1>
-<h1 className='flex text-[#A4A4A4]'><img src={Location} alt=''/>413 Texas,CA 378</h1>
-<h1 className='text-[#2320AF]'>$83,400</h1>
-<div className='rounded-xl grid grid-cols-2 gap-2'>
-    <div className='flex text-xs md:text-sm'><img src={Bathtub} alt ="" className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bathroom</div>
-    <div className='flex text-xs md:text-sm'><img src={car} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>2 Garage</div>
-    <div className='flex text-xs md:text-sm'><img src={OfficeBuildingOutline} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4.2 Square Feet</div>
-    <div className='flex text-xs md:text-sm'><img src={BedRoom} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bedroom</div>
-</div>
-<div className='w-full flex justify-center'>
-    <button className='bg-black px-4 py-1 rounded-xl mx-auto text-white'>Buy</button>
-</div>
-</div>
-</div>
-<div className='bg-[#FFFFFF] flex gap-4  mx-auto rounded-lg shadow-lg pt-3 px-3 w-fit box-border'>
-<div>
-    <img src={foryou5} alt = "Bungalow1" className='w-full h-full pb-3'/>
-</div>
-<div className='flex flex-col md:gap-1'>
-<h1 className='text-black font-'>Equisite Detached Bungalow</h1>
-<h1 className='flex text-[#A4A4A4]'><img src={Location} alt=''/>413 Texas,CA 378</h1>
-<h1 className='text-[#2320AF]'>$83,400</h1>
-<div className='rounded-xl grid grid-cols-2 gap-2'>
-    <div className='flex text-xs md:text-sm'><img src={Bathtub} alt ="" className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bathroom</div>
-    <div className='flex text-xs md:text-sm'><img src={car} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>2 Garage</div>
-    <div className='flex text-xs md:text-sm'><img src={OfficeBuildingOutline} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4.2 Square Feet</div>
-    <div className='flex text-xs md:text-sm'><img src={BedRoom} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bedroom</div>
-</div>
-<div className='w-full flex justify-center'>
-    <button className='bg-black px-4 py-1 rounded-xl mx-auto text-white'>Buy</button>
-</div>
-</div>
-</div>
-<div className='bg-[#FFFFFF] flex gap-4  mx-auto rounded-lg shadow-lg pt-3 px-3 w-fit box-border'>
-<div>
-    <img src={foryou6} alt = "Bungalow1" className='w-full h-full pb-3'/>
-</div>
-<div className='flex flex-col md:gap-1'>
-<h1 className='text-black font-'>Equisite Detached Bungalow</h1>
-<h1 className='flex text-[#A4A4A4]'><img src={Location} alt=''/>413 Texas,CA 378</h1>
-<h1 className='text-[#2320AF]'>$83,400</h1>
-<div className='rounded-xl grid grid-cols-2 gap-2'>
-    <div className='flex text-xs md:text-sm'><img src={Bathtub} alt ="" className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bathroom</div>
-    <div className='flex text-xs md:text-sm'><img src={car} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>2 Garage</div>
-    <div className='flex text-xs md:text-sm'><img src={OfficeBuildingOutline} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4.2 Square Feet</div>
-    <div className='flex text-xs md:text-sm'><img src={BedRoom} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bedroom</div>
-</div>
-<div className='w-full flex justify-center'>
-    <button className='bg-black px-4 py-1 rounded-xl mx-auto text-white'>Buy</button>
-</div>
-</div>
-</div>
-<div className='bg-[#FFFFFF] flex gap-4  mx-auto rounded-lg shadow-lg pt-3 px-3 w-fit box-border'>
-<div>
-    <img src={foryou7} alt = "Bungalow1" className='w-full h-full pb-3'/>
-</div>
-<div className='flex flex-col md:gap-1'>
-<h1 className='text-black font-'>Equisite Detached Bungalow</h1>
-<h1 className='flex text-[#A4A4A4]'><img src={Location} alt=''/>413 Texas,CA 378</h1>
-<h1 className='text-[#2320AF]'>$83,400</h1>
-<div className='rounded-xl grid grid-cols-2 gap-2'>
-    <div className='flex text-xs md:text-sm'><img src={Bathtub} alt ="" className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bathroom</div>
-    <div className='flex text-xs md:text-sm'><img src={car} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>2 Garage</div>
-    <div className='flex text-xs md:text-sm'><img src={OfficeBuildingOutline} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4.2 Square Feet</div>
-    <div className='flex text-xs md:text-sm'><img src={BedRoom} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bedroom</div>
-</div>
-<div className='w-full flex justify-center'>
-    <button className='bg-black px-4 py-1 rounded-xl mx-auto text-white'>Buy</button>
-</div>
-</div>
-</div>
-<div className='bg-[#FFFFFF] flex gap-4  mx-auto rounded-lg shadow-lg pt-3 px-3 w-fit box-border'>
-<div>
-    <img src={foryou8} alt = "Bungalow1" className='w-full h-full pb-3'/>
-</div>
-<div className='flex flex-col md:gap-1'>
-<h1 className='text-black font-'>Equisite Detached Bungalow</h1>
-<h1 className='flex text-[#A4A4A4]'><img src={Location} alt=''/>413 Texas,CA 378</h1>
-<h1 className='text-[#2320AF]'>$83,400</h1>
-<div className='rounded-xl grid grid-cols-2 gap-2'>
-    <div className='flex text-xs md:text-sm'><img src={Bathtub} alt ="" className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bathroom</div>
-    <div className='flex text-xs md:text-sm'><img src={car} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>2 Garage</div>
-    <div className='flex text-xs md:text-sm'><img src={OfficeBuildingOutline} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4.2 Square Feet</div>
-    <div className='flex text-xs md:text-sm'><img src={BedRoom} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bedroom</div>
-</div>
-<div className='w-full flex justify-center'>
-    <button className='bg-black px-4 py-1 rounded-xl mx-auto text-white'>Buy</button>
-</div>
-</div>
-</div>
-<div className='bg-[#FFFFFF] flex gap-4  mx-auto rounded-lg shadow-lg pt-3 px-3 w-fit box-border'>
-<div>
-    <img src={foryou9} alt = "Bungalow1" className='w-full h-full pb-3'/>
-</div>
-<div className='flex flex-col md:gap-1'>
-<h1 className='text-black font-'>Equisite Detached Bungalow</h1>
-<h1 className='flex text-[#A4A4A4]'><img src={Location} alt=''/>413 Texas,CA 378</h1>
-<h1 className='text-[#2320AF]'>$83,400</h1>
-<div className='rounded-xl grid grid-cols-2 gap-2'>
-    <div className='flex text-xs md:text-sm'><img src={Bathtub} alt ="" className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bathroom</div>
-    <div className='flex text-xs md:text-sm'><img src={car} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>2 Garage</div>
-    <div className='flex text-xs md:text-sm'><img src={OfficeBuildingOutline} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4.2 Square Feet</div>
-    <div className='flex text-xs md:text-sm'><img src={BedRoom} alt='' className='w-4 h-4 md:w-[initial] md:h-[initial]'/>4 Bedroom</div>
-</div>
-<div className='w-full flex justify-center'>
-    <button className='bg-black px-4 py-1 rounded-xl mx-auto text-white'>Buy</button>
-</div>
-</div>
+<div className='bg-white lg:flex p-2 rounded-lg text-sm gap-2 hidden'>
+    <div className=''>
+        <img src={foryou9} alt='' className=''/>
+    </div>
+    <div className='flex flex-col items-center'>
+        <h1>Equisite Detached Bungalow</h1>
+        <div className='w-full'>413 Texas,CA 378</div>
+        <h1 className='text-[#2320AF] text-lg w-full '>$32,800</h1>
+        <div className='grid grid-cols-2'>
+            <h1><img src={Bathtub} alt='' /> 4 Bathroom</h1>
+            <h1><img src={car} alt='' />2 Garage</h1>
+            <h1><img src={OfficeBuildingOutline} alt='' />4.2 Square Feet</h1>
+            <h1><img src={BedRoom} alt='' /> 4 Bedroom</h1>
+        </div>
+        <button className='bg-black py-1 px-2 text-white rounded-lg text-xs '>Buy</button>
+    </div>
 </div>
 </div>
     </div>

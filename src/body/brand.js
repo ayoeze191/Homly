@@ -5,7 +5,6 @@ import House from "./../assets/images/Housing.png"
 import Toyota from "./../assets/images/Toyota.png"
 import Nike from "./../assets/images/Nike.png"
 
-
 const Brand = () => {
   return (
     <div className='bg-black md:bg-inherit flex w-full px-8 mt-10 justify-evenly mx-auto items-center gap-2 md:gap-0'>
