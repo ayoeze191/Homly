@@ -10,15 +10,18 @@ import Bathtub from "./../assets/images/Bathtub.png"
 import car from "./../assets/images/car.png"
 import OfficeBuildingOutline from "./../assets/images/OfficeBuildingOutline.png";
 import BedRoom from "./../assets/images/BedRoom.png"
-
+import ViewMore from  "./../assets/images/ViewMore.png"
 const RecentlyBuilt = () => {
   return (
     <div className='bg-black w-full container mx-auto'>
-        <div className='relative bottom-40 w-5/6 mx-auto flex flex-col gap-2'>
-        <div>
-        <h1 className='text-black text-center text-lg font-bold'>Recently Built</h1>
-        <p className='text-[#A4A4A4] text-center'>Explore to find and acquire your desired property for your comfort
+        <div className='relative bottom-40 w-5/6 mx-auto flex flex-col gap-2 '>
+        <div className='flex justify-between items-end'>
+            <div>
+        <h1 className='text-black text-center font-bold text-2xl md:text-4xl md:text-left'>Recently Built</h1>
+        <p className='text-[#A4A4A4] text-center max-w-lg md:text-left'>Explore to find and acquire your desired property for your comfort
 all available at homly.</p>
+</div>
+<h1 className='gap-4 hidden md:flex'>view More <span><img src={ViewMore} alt="" /></span></h1>
 </div>
 <div className='grid  grid-cols-1 gap-5 lg:gap-6 lg:grid-cols-2 text-xs sm:text-sm md:text-base '>
 <div className='bg-[#FFFFFF] flex gap-4  mx-auto rounded-lg shadow-lg pt-3 px-3 w-fit box-border'>
@@ -99,7 +102,6 @@ all available at homly.</p>
 </div>
 </div>
 </div>
-
 </div>
   )
 }
