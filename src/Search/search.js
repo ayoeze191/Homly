@@ -2,7 +2,7 @@ import React from 'react'
 
 const Search = () => {
   return (
-    <div className='flex flex-col mx-auto items-center relative md:-mt-20 w-[90%] md:w-fit max-w-xl rounded-4xl   mt-5 pb-52'>
+    <div className='flex flex-col mx-auto items-center relative md:-mt-20 w-[90%] md:w-fit max-w-xl rounded-4xl   mt-5 pb-20'>
         <div className='m-0 flex order-2 md:order-1 gap-4 md:gap-0 mt-4 md:mt-0 '>
             <button className='bg-black md:bg-white text-white md:text-black px-5 py-2 md:rounded-t-md md:rounded-b-none rounded-md md:shadow-2xl'>Buy</button>
             <button className='bg-white md:bg-black md:text-white px-5 py-2 rounded-t-md md:rounded-t-md md:rounded-b-none rounded-md md:shadow-2xl'>Rent</button>

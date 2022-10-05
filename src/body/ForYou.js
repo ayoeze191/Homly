@@ -16,12 +16,14 @@ import foryou9 from "./../assets/ForYou/ForYou9.png"
 
 const ForYou = () => {
   return (
-    <div className='flex flex-col items-center container mt-10 mx-auto'>
+    <div className='flex flex-col items-center mt-10 mx-auto w-full'>
+        <div className='flex justify-between flex-col text-left items-start mt-0 mx-auto sm:container px-3 md:px-20 mt-20 mb-32'>
         <h1 className='text-2xl md:text-4xl text-center md:text-left w-4/5'>For You</h1>
-        <p className='text-[#A4A4A4] w-4/5 mx-auto flex flex-col md:flex-row gap-4 md:gap-6 text-center mb-4 md:mb-6'>We offer the best deals in property buying,Homly we secures
+        <p className='text-[#A4A4A4] w-full mx-auto flex flex-col md:flex-row gap-4 md:gap-6 text-center md:text-left mb-4 md:mb-6'>We offer the best deals in property buying,Homly we secures
 your property before and after purchase.</p>
-<div className='grid  grid-cols-1 gap-5 lg:gap-6 md:grid-cols-2 lg:grid-cols-3 text-xs sm:text-sm md:text-base w-4/5 items-center'>
-<div className='bg-white flex p-2 rounded-lg text-sm gap-2'>
+</div>
+<div className='grid  grid-cols-1 gap-4 lg:gap-6 md:grid-cols-2 lg:grid-cols-3 text-xs sm:text-sm md:text-base w-full p-3 md:p-10 items-center'>
+<div className='bg-white flex p-2 rounded-lg text-sm gap-2 shadow-2xl'>
     <div className=''>
         <img src={foryou1} alt='' className=''/>
     </div>
@@ -38,7 +40,7 @@ your property before and after purchase.</p>
         <button className='bg-black py-1 px-2 text-white rounded-lg text-xs '>Buy</button>
     </div>
 </div>
-<div className='bg-white flex p-2 rounded-lg text-sm gap-2'>
+<div className='bg-white flex p-2 rounded-lg text-sm gap-2 shadow-2xl'>
     <div className=''>
         <img src={foryou2} alt='' className=''/>
     </div>
@@ -55,7 +57,7 @@ your property before and after purchase.</p>
         <button className='bg-black py-1 px-2 text-white rounded-lg text-xs '>Buy</button>
     </div>
 </div>
-<div className='bg-white flex p-2 rounded-lg text-sm gap-2'>
+<div className='bg-white flex p-2 rounded-lg text-sm gap-2 shadow-2xl'>
     <div className=''>
         <img src={foryou3} alt='' className=''/>
     </div>
@@ -72,7 +74,7 @@ your property before and after purchase.</p>
         <button className='bg-black py-1 px-2 text-white rounded-lg text-xs '>Buy</button>
     </div>
 </div>
-<div className='bg-white flex p-2 rounded-lg text-sm gap-2'>
+<div className='bg-white flex p-2 rounded-lg text-sm gap-2 shadow-2xl'>
     <div className=''>
         <img src={foryou4} alt='' className=''/>
     </div>
@@ -89,7 +91,7 @@ your property before and after purchase.</p>
         <button className='bg-black py-1 px-2 text-white rounded-lg text-xs '>Buy</button>
     </div>
 </div>
-<div className='bg-white lg:flex p-2 rounded-lg text-sm gap-2 hidden'>
+<div className='bg-white lg:flex p-2 rounded-lg text-sm gap-2 hidden shadow-2xl'>
     <div className=''>
         <img src={foryou5} alt='' className=''/>
     </div>
@@ -106,7 +108,7 @@ your property before and after purchase.</p>
         <button className='bg-black py-1 px-2 text-white rounded-lg text-xs '>Buy</button>
     </div>
 </div>
-<div className='bg-white lg:flex p-2 rounded-lg text-sm gap-2 hidden'>
+<div className='bg-white lg:flex p-2 rounded-lg text-sm gap-2 hidden shadow-2xl'>
     <div className=''>
         <img src={foryou6} alt='' className=''/>
     </div>
@@ -123,7 +125,7 @@ your property before and after purchase.</p>
         <button className='bg-black py-1 px-2 text-white rounded-lg text-xs '>Buy</button>
     </div>
 </div>
-<div className='bg-white lg:flex p-2 rounded-lg text-sm gap-2 hidden'>
+<div className='bg-white lg:flex p-2 rounded-lg text-sm gap-2 hidden shadow-2xl'>
     <div className=''>
         <img src={foryou7} alt='' className=''/>
     </div>
@@ -140,7 +142,7 @@ your property before and after purchase.</p>
         <button className='bg-black py-1 px-2 text-white rounded-lg text-xs '>Buy</button>
     </div>
 </div>
-<div className='bg-white lg:flex p-2 rounded-lg text-sm gap-2 hidden'>
+<div className='bg-white lg:flex p-2 rounded-lg text-sm gap-2 hidden shadow-2xl'>
     <div className=''>
         <img src={foryou8} alt='' className=''/>
     </div>
@@ -157,7 +159,7 @@ your property before and after purchase.</p>
         <button className='bg-black py-1 px-2 text-white rounded-lg text-xs '>Buy</button>
     </div>
 </div>
-<div className='bg-white lg:flex p-2 rounded-lg text-sm gap-2 hidden'>
+<div className='bg-white lg:flex p-2 rounded-lg text-sm gap-2 hidden shadow-2xl'>
     <div className=''>
         <img src={foryou9} alt='' className=''/>
     </div>

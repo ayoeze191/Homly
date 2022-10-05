@@ -3,8 +3,9 @@ import Play from "./../assets/images/Play.png"
 import building from "./../assets/images/building.png"
 const Hero = () => {
   return (
-    <div className='flex flex-col md:flex-row bg-[#C0CAD3] md:px-20 py-2 sm:container mx-auto md:rounded-lg mt-4'>
-    <div className='px-3 mx-auto    flex flex-col gap-5 py-24'>
+    <div className='bg-[#C0CAD3] md:rounded-lg'>
+    <div className='flex flex-col md:flex-row  md:px-20 mx-auto sm:container mt-4 mx-auto'>
+    <div className='px-3 mx-auto flex flex-col gap-5 py-24  w-full'>
         <h1 className='font-bold text-4xl leading-relaxed text-left'>Acquire The Home You Always Wanted</h1>
         <h3 className='text-black text-base text-left'>The home of your dream is all we offer at homly. Our pride is to please you</h3>
         <div className='flex gap-4 items-center w-fit'>
@@ -31,6 +32,7 @@ const Hero = () => {
         <img src={building} alt="" className='w-full h-full'/>
       </div>
 
+    </div>
     </div>
   )
 }
